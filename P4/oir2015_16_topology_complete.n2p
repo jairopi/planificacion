@@ -1,0 +1,820 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<network description="Fictitious mesh network connecting the seven most populated cities in Spain. It is composed of 7 nodes and 16 unidirectional links, including a demand set" name="7-node network" version="4">
+	<node id="2" xCoord="-3.6919444" yCoord="40.4188889" name="Madrid" isUp="true">
+		<attribute key="level" value="1"/>
+		<attribute key="population" value="3265038"/>
+	</node>
+	<node id="3" xCoord="2.1769444" yCoord="41.3825" name="Barcelona" isUp="true">
+		<attribute key="level" value="1"/>
+		<attribute key="population" value="1615448"/>
+	</node>
+	<node id="4" xCoord="-0.375" yCoord="39.4666667" name="Valencia" isUp="true">
+		<attribute key="level" value="1"/>
+		<attribute key="population" value="798033"/>
+	</node>
+	<node id="5" xCoord="-5.9833333" yCoord="37.3833333" name="Sevilla" isUp="true">
+		<attribute key="level" value="1"/>
+		<attribute key="population" value="703021"/>
+	</node>
+	<node id="6" xCoord="-0.8833333" yCoord="41.65" name="Zaragoza" isUp="true">
+		<attribute key="level" value="1"/>
+		<attribute key="population" value="674725"/>
+	</node>
+	<node id="7" xCoord="-4.4166667" yCoord="36.7166667" name="Málaga" isUp="true">
+		<attribute key="level" value="1"/>
+		<attribute key="population" value="568030"/>
+	</node>
+	<node id="8" xCoord="-1.1302778" yCoord="37.9861111" name="Murcia" isUp="true">
+		<attribute key="level" value="1"/>
+		<attribute key="population" value="442203"/>
+	</node>
+	<layer id="1" name="WDM" description="" linkCapacityUnitsName="" demandTrafficUnitsName="">
+		<link id="9" originNodeId="2" destinationNodeId="4" capacity="40.0" lengthInKm="120.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="dcmCDCompensation_ps_per_nm" value="-776.3744067985873 -776.3744067985873 -776.3744067985873 -776.3744067985873 -776.3744067985873 -776.3744067985873 -776.3744067985873 "/>
+			<attribute key="dcmPositions_km" value="38.96522963667692 80.32745970695574 121.68968977723453 163.05191984751335 204.41414991779214 245.77637998807094 301.92338042167285 "/>
+			<attribute key="edfaGains_dB" value="20.044892028111523 20.044892028111523 20.044892028111523 20.044892028111523 20.044892028111523 20.044892028111523 "/>
+			<attribute key="edfaPositions_km" value="38.96522963667692 80.32745970695574 121.68968977723453 163.05191984751335 204.41414991779214 245.77637998807094 "/>
+		</link>
+		<link id="10" originNodeId="2" destinationNodeId="5" capacity="40.0" lengthInKm="150.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="dcmCDCompensation_ps_per_nm" value="-782.8673111687518 -782.8673111687518 -782.8673111687518 -782.8673111687518 -782.8673111687518 -782.8673111687518 -782.8673111687518 -782.8673111687518 -782.8673111687518 "/>
+			<attribute key="dcmPositions_km" value="39.813456514445114 82.0239134624921 124.2343704105391 166.44482735858608 208.65528430663306 250.86574125468007 293.0761982027271 335.2866551507741 391.4336555843759 "/>
+			<attribute key="edfaGains_dB" value="20.384182779218797 20.384182779218797 20.384182779218797 20.384182779218797 20.384182779218797 20.384182779218797 20.384182779218797 20.384182779218797 "/>
+			<attribute key="edfaPositions_km" value="39.813456514445114 82.0239134624921 124.2343704105391 166.44482735858608 208.65528430663306 250.86574125468007 293.0761982027271 335.2866551507741 "/>
+		</link>
+		<link id="11" originNodeId="2" destinationNodeId="6" capacity="40.0" lengthInKm="100.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="dcmCDCompensation_ps_per_nm" value="-817.3203599452455 -817.3203599452455 -817.3203599452455 -817.3203599452455 -817.3203599452455 -817.3203599452455 "/>
+			<attribute key="dcmPositions_km" value="41.34102356274782 85.07904755909755 128.81707155544723 172.5550955517969 216.29311954814665 272.4401199817485 "/>
+			<attribute key="edfaGains_dB" value="20.995209598539883 20.995209598539883 20.995209598539883 20.995209598539883 20.995209598539883 "/>
+			<attribute key="edfaPositions_km" value="41.34102356274782 85.07904755909755 128.81707155544723 172.5550955517969 216.29311954814665 "/>
+		</link>
+		<link id="12" originNodeId="3" destinationNodeId="4" capacity="40.0" lengthInKm="120.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="dcmCDCompensation_ps_per_nm" value="-780.0748047627776 -780.0748047627776 -780.0748047627776 -780.0748047627776 -780.0748047627776 -780.0748047627776 -780.0748047627776 "/>
+			<attribute key="dcmPositions_km" value="39.20507024546705 80.80714092453597 122.40921160360489 164.01128228267382 205.61335296174275 247.21542364081165 303.3624240744135 "/>
+			<attribute key="edfaGains_dB" value="20.14082827162757 20.14082827162757 20.14082827162757 20.14082827162757 20.14082827162757 20.14082827162757 "/>
+			<attribute key="edfaPositions_km" value="39.20507024546705 80.80714092453597 122.40921160360489 164.01128228267382 205.61335296174275 247.21542364081165 "/>
+		</link>
+		<link id="13" originNodeId="3" destinationNodeId="6" capacity="40.0" lengthInKm="90.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="dcmCDCompensation_ps_per_nm" value="-769.5375467889744 -769.5375467889744 -769.5375467889744 -769.5375467889744 -769.5375467889744 -769.5375467889744 "/>
+			<attribute key="dcmPositions_km" value="38.15550268566309 78.70800580492806 119.26050892419303 159.813012043458 200.36551516272297 256.5125155963248 "/>
+			<attribute key="edfaGains_dB" value="19.72100124770599 19.72100124770599 19.72100124770599 19.72100124770599 19.72100124770599 "/>
+			<attribute key="edfaPositions_km" value="38.15550268566309 78.70800580492806 119.26050892419303 159.813012043458 200.36551516272297 "/>
+		</link>
+		<link id="14" originNodeId="4" destinationNodeId="2" capacity="40.0" lengthInKm="120.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="dcmCDCompensation_ps_per_nm" value="-776.3744067985873 -776.3744067985873 -776.3744067985873 -776.3744067985873 -776.3744067985873 -776.3744067985873 -776.3744067985873 "/>
+			<attribute key="dcmPositions_km" value="38.96522963667692 80.32745970695574 121.68968977723453 163.05191984751335 204.41414991779214 245.77637998807094 301.92338042167285 "/>
+			<attribute key="edfaGains_dB" value="20.044892028111523 20.044892028111523 20.044892028111523 20.044892028111523 20.044892028111523 20.044892028111523 "/>
+			<attribute key="edfaPositions_km" value="38.96522963667692 80.32745970695574 121.68968977723453 163.05191984751335 204.41414991779214 245.77637998807094 "/>
+		</link>
+		<link id="15" originNodeId="4" destinationNodeId="3" capacity="40.0" lengthInKm="120.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="dcmCDCompensation_ps_per_nm" value="-780.0748047627776 -780.0748047627776 -780.0748047627776 -780.0748047627776 -780.0748047627776 -780.0748047627776 -780.0748047627776 "/>
+			<attribute key="dcmPositions_km" value="39.20507024546705 80.80714092453597 122.40921160360489 164.01128228267382 205.61335296174275 247.21542364081165 303.3624240744135 "/>
+			<attribute key="edfaGains_dB" value="20.14082827162757 20.14082827162757 20.14082827162757 20.14082827162757 20.14082827162757 20.14082827162757 "/>
+			<attribute key="edfaPositions_km" value="39.20507024546705 80.80714092453597 122.40921160360489 164.01128228267382 205.61335296174275 247.21542364081165 "/>
+		</link>
+		<link id="16" originNodeId="4" destinationNodeId="8" capacity="40.0" lengthInKm="60.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="dcmCDCompensation_ps_per_nm" value="-797.3399097347497 -797.3399097347497 -797.3399097347497 -797.3399097347497 "/>
+			<attribute key="dcmPositions_km" value="38.748548435638845 79.89409730487957 121.03964617412029 177.18664660772214 "/>
+			<attribute key="edfaGains_dB" value="19.958219547696288 19.958219547696288 19.958219547696288 "/>
+			<attribute key="edfaPositions_km" value="38.748548435638845 79.89409730487957 121.03964617412029 "/>
+		</link>
+		<link id="17" originNodeId="5" destinationNodeId="2" capacity="40.0" lengthInKm="150.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="dcmCDCompensation_ps_per_nm" value="-782.8673111687518 -782.8673111687518 -782.8673111687518 -782.8673111687518 -782.8673111687518 -782.8673111687518 -782.8673111687518 -782.8673111687518 -782.8673111687518 "/>
+			<attribute key="dcmPositions_km" value="39.813456514445114 82.0239134624921 124.2343704105391 166.44482735858608 208.65528430663306 250.86574125468007 293.0761982027271 335.2866551507741 391.4336555843759 "/>
+			<attribute key="edfaGains_dB" value="20.384182779218797 20.384182779218797 20.384182779218797 20.384182779218797 20.384182779218797 20.384182779218797 20.384182779218797 20.384182779218797 "/>
+			<attribute key="edfaPositions_km" value="39.813456514445114 82.0239134624921 124.2343704105391 166.44482735858608 208.65528430663306 250.86574125468007 293.0761982027271 335.2866551507741 "/>
+		</link>
+		<link id="18" originNodeId="5" destinationNodeId="7" capacity="40.0" lengthInKm="60.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="dcmCDCompensation_ps_per_nm" value="-709.0173451761656 -709.0173451761656 -709.0173451761656 -709.0173451761656 "/>
+			<attribute key="dcmPositions_km" value="32.2061362461141 66.80927292583007 101.41240960554605 157.5594100391479 "/>
+			<attribute key="edfaGains_dB" value="17.34125467188639 17.34125467188639 17.34125467188639 "/>
+			<attribute key="edfaPositions_km" value="32.2061362461141 66.80927292583007 101.41240960554605 "/>
+		</link>
+		<link id="19" originNodeId="6" destinationNodeId="2" capacity="40.0" lengthInKm="100.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="dcmCDCompensation_ps_per_nm" value="-817.3203599452455 -817.3203599452455 -817.3203599452455 -817.3203599452455 -817.3203599452455 -817.3203599452455 "/>
+			<attribute key="dcmPositions_km" value="41.34102356274782 85.07904755909755 128.81707155544723 172.5550955517969 216.29311954814665 272.4401199817485 "/>
+			<attribute key="edfaGains_dB" value="20.995209598539883 20.995209598539883 20.995209598539883 20.995209598539883 20.995209598539883 "/>
+			<attribute key="edfaPositions_km" value="41.34102356274782 85.07904755909755 128.81707155544723 172.5550955517969 216.29311954814665 "/>
+		</link>
+		<link id="20" originNodeId="6" destinationNodeId="3" capacity="40.0" lengthInKm="90.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="dcmCDCompensation_ps_per_nm" value="-769.5375467889744 -769.5375467889744 -769.5375467889744 -769.5375467889744 -769.5375467889744 -769.5375467889744 "/>
+			<attribute key="dcmPositions_km" value="38.15550268566309 78.70800580492806 119.26050892419303 159.813012043458 200.36551516272297 256.5125155963248 "/>
+			<attribute key="edfaGains_dB" value="19.72100124770599 19.72100124770599 19.72100124770599 19.72100124770599 19.72100124770599 "/>
+			<attribute key="edfaPositions_km" value="38.15550268566309 78.70800580492806 119.26050892419303 159.813012043458 200.36551516272297 "/>
+		</link>
+		<link id="21" originNodeId="7" destinationNodeId="5" capacity="40.0" lengthInKm="60.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="dcmCDCompensation_ps_per_nm" value="-709.0173451761657 -709.0173451761657 -709.0173451761657 -709.0173451761657 "/>
+			<attribute key="dcmPositions_km" value="32.2061362461141 66.80927292583007 101.41240960554605 157.55941003914793 "/>
+			<attribute key="edfaGains_dB" value="17.34125467188639 17.34125467188639 17.34125467188639 "/>
+			<attribute key="edfaPositions_km" value="32.2061362461141 66.80927292583007 101.41240960554605 "/>
+		</link>
+		<link id="22" originNodeId="7" destinationNodeId="8" capacity="40.0" lengthInKm="120.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="dcmCDCompensation_ps_per_nm" value="-827.0 -827.0 -827.0 -827.0 -827.0 -827.0 -827.0 "/>
+			<attribute key="dcmPositions_km" value="42.468439705992274 87.33387984558644 132.19931998518058 177.06476012477475 221.9302002643689 266.7956404039631 322.94264083756497 "/>
+			<attribute key="edfaGains_dB" value="21.446176055837665 21.446176055837665 21.446176055837665 21.446176055837665 21.446176055837665 21.446176055837665 "/>
+			<attribute key="edfaPositions_km" value="42.468439705992274 87.33387984558644 132.19931998518058 177.06476012477475 221.9302002643689 266.7956404039631 "/>
+		</link>
+		<link id="23" originNodeId="8" destinationNodeId="4" capacity="40.0" lengthInKm="60.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="dcmCDCompensation_ps_per_nm" value="-797.3399097347497 -797.3399097347497 -797.3399097347497 -797.3399097347497 "/>
+			<attribute key="dcmPositions_km" value="38.748548435638845 79.89409730487957 121.03964617412029 177.18664660772214 "/>
+			<attribute key="edfaGains_dB" value="19.958219547696288 19.958219547696288 19.958219547696288 "/>
+			<attribute key="edfaPositions_km" value="38.748548435638845 79.89409730487957 121.03964617412029 "/>
+		</link>
+		<link id="24" originNodeId="8" destinationNodeId="7" capacity="40.0" lengthInKm="120.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="dcmCDCompensation_ps_per_nm" value="-827.0 -827.0 -827.0 -827.0 -827.0 -827.0 -827.0 "/>
+			<attribute key="dcmPositions_km" value="42.468439705992274 87.33387984558644 132.19931998518058 177.06476012477475 221.9302002643689 266.7956404039631 322.94264083756497 "/>
+			<attribute key="edfaGains_dB" value="21.446176055837665 21.446176055837665 21.446176055837665 21.446176055837665 21.446176055837665 21.446176055837665 "/>
+			<attribute key="edfaPositions_km" value="42.468439705992274 87.33387984558644 132.19931998518058 177.06476012477475 221.9302002643689 266.7956404039631 "/>
+		</link>
+		<demand id="256" ingressNodeId="2" egressNodeId="3" offeredTraffic="10.0"/>
+		<demand id="259" ingressNodeId="3" egressNodeId="2" offeredTraffic="10.0"/>
+		<demand id="262" ingressNodeId="2" egressNodeId="3" offeredTraffic="10.0"/>
+		<demand id="265" ingressNodeId="3" egressNodeId="2" offeredTraffic="10.0"/>
+		<demand id="268" ingressNodeId="2" egressNodeId="4" offeredTraffic="10.0"/>
+		<demand id="271" ingressNodeId="4" egressNodeId="2" offeredTraffic="10.0"/>
+		<demand id="274" ingressNodeId="2" egressNodeId="6" offeredTraffic="10.0"/>
+		<demand id="277" ingressNodeId="6" egressNodeId="2" offeredTraffic="10.0"/>
+		<demand id="280" ingressNodeId="2" egressNodeId="5" offeredTraffic="10.0"/>
+		<demand id="283" ingressNodeId="5" egressNodeId="2" offeredTraffic="10.0"/>
+		<demand id="286" ingressNodeId="2" egressNodeId="7" offeredTraffic="10.0"/>
+		<demand id="289" ingressNodeId="7" egressNodeId="2" offeredTraffic="10.0"/>
+		<demand id="292" ingressNodeId="2" egressNodeId="3" offeredTraffic="10.0"/>
+		<demand id="295" ingressNodeId="3" egressNodeId="2" offeredTraffic="10.0"/>
+		<demand id="298" ingressNodeId="2" egressNodeId="8" offeredTraffic="10.0"/>
+		<demand id="301" ingressNodeId="8" egressNodeId="2" offeredTraffic="10.0"/>
+		<demand id="304" ingressNodeId="3" egressNodeId="4" offeredTraffic="10.0"/>
+		<demand id="307" ingressNodeId="4" egressNodeId="3" offeredTraffic="10.0"/>
+		<demand id="310" ingressNodeId="3" egressNodeId="6" offeredTraffic="10.0"/>
+		<demand id="313" ingressNodeId="6" egressNodeId="3" offeredTraffic="10.0"/>
+		<demand id="316" ingressNodeId="3" egressNodeId="5" offeredTraffic="10.0"/>
+		<demand id="319" ingressNodeId="5" egressNodeId="3" offeredTraffic="10.0"/>
+		<demand id="322" ingressNodeId="4" egressNodeId="6" offeredTraffic="10.0"/>
+		<demand id="325" ingressNodeId="6" egressNodeId="4" offeredTraffic="10.0"/>
+		<demand id="328" ingressNodeId="3" egressNodeId="8" offeredTraffic="10.0"/>
+		<demand id="331" ingressNodeId="8" egressNodeId="3" offeredTraffic="10.0"/>
+		<demand id="334" ingressNodeId="3" egressNodeId="7" offeredTraffic="10.0"/>
+		<demand id="337" ingressNodeId="7" egressNodeId="3" offeredTraffic="10.0"/>
+		<demand id="340" ingressNodeId="5" egressNodeId="7" offeredTraffic="10.0"/>
+		<demand id="343" ingressNodeId="7" egressNodeId="5" offeredTraffic="10.0"/>
+		<demand id="346" ingressNodeId="4" egressNodeId="8" offeredTraffic="10.0"/>
+		<demand id="349" ingressNodeId="8" egressNodeId="4" offeredTraffic="10.0"/>
+		<demand id="352" ingressNodeId="2" egressNodeId="4" offeredTraffic="10.0"/>
+		<demand id="355" ingressNodeId="4" egressNodeId="2" offeredTraffic="10.0"/>
+		<demand id="358" ingressNodeId="4" egressNodeId="5" offeredTraffic="10.0"/>
+		<demand id="361" ingressNodeId="5" egressNodeId="4" offeredTraffic="10.0"/>
+		<demand id="364" ingressNodeId="4" egressNodeId="7" offeredTraffic="10.0"/>
+		<demand id="367" ingressNodeId="7" egressNodeId="4" offeredTraffic="10.0"/>
+		<demand id="370" ingressNodeId="5" egressNodeId="6" offeredTraffic="10.0"/>
+		<demand id="373" ingressNodeId="6" egressNodeId="5" offeredTraffic="10.0"/>
+		<demand id="376" ingressNodeId="6" egressNodeId="8" offeredTraffic="10.0"/>
+		<demand id="379" ingressNodeId="8" egressNodeId="6" offeredTraffic="10.0"/>
+		<demand id="382" ingressNodeId="6" egressNodeId="7" offeredTraffic="10.0"/>
+		<demand id="385" ingressNodeId="7" egressNodeId="6" offeredTraffic="10.0"/>
+		<demand id="388" ingressNodeId="5" egressNodeId="8" offeredTraffic="10.0"/>
+		<demand id="391" ingressNodeId="8" egressNodeId="5" offeredTraffic="10.0"/>
+		<demand id="394" ingressNodeId="7" egressNodeId="8" offeredTraffic="10.0"/>
+		<demand id="397" ingressNodeId="8" egressNodeId="7" offeredTraffic="10.0"/>
+		<demand id="400" ingressNodeId="6" egressNodeId="2" offeredTraffic="10.0"/>
+		<demand id="403" ingressNodeId="7" egressNodeId="2" offeredTraffic="10.0"/>
+		<demand id="406" ingressNodeId="2" egressNodeId="7" offeredTraffic="10.0"/>
+		<demand id="409" ingressNodeId="2" egressNodeId="6" offeredTraffic="10.0"/>
+		<demand id="412" ingressNodeId="6" egressNodeId="2" offeredTraffic="10.0"/>
+		<demand id="415" ingressNodeId="2" egressNodeId="5" offeredTraffic="10.0"/>
+		<demand id="418" ingressNodeId="7" egressNodeId="2" offeredTraffic="10.0"/>
+		<demand id="421" ingressNodeId="2" egressNodeId="7" offeredTraffic="10.0"/>
+		<demand id="424" ingressNodeId="8" egressNodeId="2" offeredTraffic="10.0"/>
+		<demand id="427" ingressNodeId="2" egressNodeId="8" offeredTraffic="10.0"/>
+		<demand id="430" ingressNodeId="3" egressNodeId="2" offeredTraffic="10.0"/>
+		<demand id="433" ingressNodeId="6" egressNodeId="2" offeredTraffic="10.0"/>
+		<demand id="436" ingressNodeId="2" egressNodeId="6" offeredTraffic="10.0"/>
+		<sourceRouting>
+			<route id="257" demandId="256" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="9 15" currentSeqLinksAndProtectionSegments="9 15" backupSegmentList="">
+				<attribute key="seqWavelengths" value="0 0"/>
+				<attribute key="seqWavelengthsInitialRoute" value="0 0"/>
+			</route>
+			<route id="260" demandId="259" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="12 14" currentSeqLinksAndProtectionSegments="12 14" backupSegmentList="">
+				<attribute key="seqWavelengths" value="0 0"/>
+				<attribute key="seqWavelengthsInitialRoute" value="0 0"/>
+			</route>
+			<route id="263" demandId="262" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="9 15" currentSeqLinksAndProtectionSegments="9 15" backupSegmentList="">
+				<attribute key="seqWavelengths" value="1 1"/>
+				<attribute key="seqWavelengthsInitialRoute" value="1 1"/>
+			</route>
+			<route id="266" demandId="265" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="12 14" currentSeqLinksAndProtectionSegments="12 14" backupSegmentList="">
+				<attribute key="seqWavelengths" value="1 1"/>
+				<attribute key="seqWavelengthsInitialRoute" value="1 1"/>
+			</route>
+			<route id="269" demandId="268" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="9" currentSeqLinksAndProtectionSegments="9" backupSegmentList="">
+				<attribute key="seqWavelengths" value="2"/>
+				<attribute key="seqWavelengthsInitialRoute" value="2"/>
+			</route>
+			<route id="272" demandId="271" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="14" currentSeqLinksAndProtectionSegments="14" backupSegmentList="">
+				<attribute key="seqWavelengths" value="2"/>
+				<attribute key="seqWavelengthsInitialRoute" value="2"/>
+			</route>
+			<route id="275" demandId="274" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="11" currentSeqLinksAndProtectionSegments="11" backupSegmentList="">
+				<attribute key="seqWavelengths" value="0"/>
+				<attribute key="seqWavelengthsInitialRoute" value="0"/>
+			</route>
+			<route id="278" demandId="277" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="19" currentSeqLinksAndProtectionSegments="19" backupSegmentList="">
+				<attribute key="seqWavelengths" value="0"/>
+				<attribute key="seqWavelengthsInitialRoute" value="0"/>
+			</route>
+			<route id="281" demandId="280" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="10" currentSeqLinksAndProtectionSegments="10" backupSegmentList="">
+				<attribute key="seqWavelengths" value="0"/>
+				<attribute key="seqWavelengthsInitialRoute" value="0"/>
+			</route>
+			<route id="284" demandId="283" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="17" currentSeqLinksAndProtectionSegments="17" backupSegmentList="">
+				<attribute key="seqWavelengths" value="0"/>
+				<attribute key="seqWavelengthsInitialRoute" value="0"/>
+			</route>
+			<route id="287" demandId="286" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="10 18" currentSeqLinksAndProtectionSegments="10 18" backupSegmentList="">
+				<attribute key="seqWavelengths" value="1 1"/>
+				<attribute key="seqWavelengthsInitialRoute" value="1 1"/>
+			</route>
+			<route id="290" demandId="289" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="21 17" currentSeqLinksAndProtectionSegments="21 17" backupSegmentList="">
+				<attribute key="seqWavelengths" value="1 1"/>
+				<attribute key="seqWavelengthsInitialRoute" value="1 1"/>
+			</route>
+			<route id="293" demandId="292" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="9 15" currentSeqLinksAndProtectionSegments="9 15" backupSegmentList="">
+				<attribute key="seqWavelengths" value="3 3"/>
+				<attribute key="seqWavelengthsInitialRoute" value="3 3"/>
+			</route>
+			<route id="296" demandId="295" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="12 14" currentSeqLinksAndProtectionSegments="12 14" backupSegmentList="">
+				<attribute key="seqWavelengths" value="3 3"/>
+				<attribute key="seqWavelengthsInitialRoute" value="3 3"/>
+			</route>
+			<route id="299" demandId="298" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="9 16" currentSeqLinksAndProtectionSegments="9 16" backupSegmentList="">
+				<attribute key="seqWavelengths" value="4 4"/>
+				<attribute key="seqWavelengthsInitialRoute" value="4 4"/>
+			</route>
+			<route id="302" demandId="301" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="23 14" currentSeqLinksAndProtectionSegments="23 14" backupSegmentList="">
+				<attribute key="seqWavelengths" value="4 4"/>
+				<attribute key="seqWavelengthsInitialRoute" value="4 4"/>
+			</route>
+			<route id="305" demandId="304" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="12" currentSeqLinksAndProtectionSegments="12" backupSegmentList="">
+				<attribute key="seqWavelengths" value="2"/>
+				<attribute key="seqWavelengthsInitialRoute" value="2"/>
+			</route>
+			<route id="308" demandId="307" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="15" currentSeqLinksAndProtectionSegments="15" backupSegmentList="">
+				<attribute key="seqWavelengths" value="2"/>
+				<attribute key="seqWavelengthsInitialRoute" value="2"/>
+			</route>
+			<route id="311" demandId="310" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="13" currentSeqLinksAndProtectionSegments="13" backupSegmentList="">
+				<attribute key="seqWavelengths" value="0"/>
+				<attribute key="seqWavelengthsInitialRoute" value="0"/>
+			</route>
+			<route id="314" demandId="313" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="20" currentSeqLinksAndProtectionSegments="20" backupSegmentList="">
+				<attribute key="seqWavelengths" value="0"/>
+				<attribute key="seqWavelengthsInitialRoute" value="0"/>
+			</route>
+			<route id="317" demandId="316" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="12 14 10" currentSeqLinksAndProtectionSegments="12 14 10" backupSegmentList="">
+				<attribute key="seqWavelengths" value="5 5 5"/>
+				<attribute key="seqWavelengthsInitialRoute" value="5 5 5"/>
+			</route>
+			<route id="320" demandId="319" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="17 11 20" currentSeqLinksAndProtectionSegments="17 11 20" backupSegmentList="">
+				<attribute key="seqWavelengths" value="2 2 2"/>
+				<attribute key="seqWavelengthsInitialRoute" value="2 2 2"/>
+			</route>
+			<route id="323" demandId="322" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="14 11" currentSeqLinksAndProtectionSegments="14 11" backupSegmentList="">
+				<attribute key="seqWavelengths" value="6 6"/>
+				<attribute key="seqWavelengthsInitialRoute" value="6 6"/>
+			</route>
+			<route id="326" demandId="325" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="19 9" currentSeqLinksAndProtectionSegments="19 9" backupSegmentList="">
+				<attribute key="seqWavelengths" value="5 5"/>
+				<attribute key="seqWavelengthsInitialRoute" value="5 5"/>
+			</route>
+			<route id="329" demandId="328" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="12 16" currentSeqLinksAndProtectionSegments="12 16" backupSegmentList="">
+				<attribute key="seqWavelengths" value="6 6"/>
+				<attribute key="seqWavelengthsInitialRoute" value="6 6"/>
+			</route>
+			<route id="332" demandId="331" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="23 15" currentSeqLinksAndProtectionSegments="23 15" backupSegmentList="">
+				<attribute key="seqWavelengths" value="5 5"/>
+				<attribute key="seqWavelengthsInitialRoute" value="5 5"/>
+			</route>
+			<route id="335" demandId="334" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="12 16 24" currentSeqLinksAndProtectionSegments="12 16 24" backupSegmentList="">
+				<attribute key="seqWavelengths" value="7 7 7"/>
+				<attribute key="seqWavelengthsInitialRoute" value="7 7 7"/>
+			</route>
+			<route id="338" demandId="337" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="22 23 15" currentSeqLinksAndProtectionSegments="22 23 15" backupSegmentList="">
+				<attribute key="seqWavelengths" value="6 6 6"/>
+				<attribute key="seqWavelengthsInitialRoute" value="6 6 6"/>
+			</route>
+			<route id="341" demandId="340" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="18" currentSeqLinksAndProtectionSegments="18" backupSegmentList="">
+				<attribute key="seqWavelengths" value="0"/>
+				<attribute key="seqWavelengthsInitialRoute" value="0"/>
+			</route>
+			<route id="344" demandId="343" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="21" currentSeqLinksAndProtectionSegments="21" backupSegmentList="">
+				<attribute key="seqWavelengths" value="0"/>
+				<attribute key="seqWavelengthsInitialRoute" value="0"/>
+			</route>
+			<route id="347" demandId="346" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="16" currentSeqLinksAndProtectionSegments="16" backupSegmentList="">
+				<attribute key="seqWavelengths" value="0"/>
+				<attribute key="seqWavelengthsInitialRoute" value="0"/>
+			</route>
+			<route id="350" demandId="349" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="23" currentSeqLinksAndProtectionSegments="23" backupSegmentList="">
+				<attribute key="seqWavelengths" value="0"/>
+				<attribute key="seqWavelengthsInitialRoute" value="0"/>
+			</route>
+			<route id="353" demandId="352" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="9" currentSeqLinksAndProtectionSegments="9" backupSegmentList="">
+				<attribute key="seqWavelengths" value="6"/>
+				<attribute key="seqWavelengthsInitialRoute" value="6"/>
+			</route>
+			<route id="356" demandId="355" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="14" currentSeqLinksAndProtectionSegments="14" backupSegmentList="">
+				<attribute key="seqWavelengths" value="7"/>
+				<attribute key="seqWavelengthsInitialRoute" value="7"/>
+			</route>
+			<route id="359" demandId="358" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="14 10" currentSeqLinksAndProtectionSegments="14 10" backupSegmentList="">
+				<attribute key="seqWavelengths" value="8 8"/>
+				<attribute key="seqWavelengthsInitialRoute" value="8 8"/>
+			</route>
+			<route id="362" demandId="361" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="17 9" currentSeqLinksAndProtectionSegments="17 9" backupSegmentList="">
+				<attribute key="seqWavelengths" value="7 7"/>
+				<attribute key="seqWavelengthsInitialRoute" value="7 7"/>
+			</route>
+			<route id="365" demandId="364" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="16 24" currentSeqLinksAndProtectionSegments="16 24" backupSegmentList="">
+				<attribute key="seqWavelengths" value="1 1"/>
+				<attribute key="seqWavelengthsInitialRoute" value="1 1"/>
+			</route>
+			<route id="368" demandId="367" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="22 23" currentSeqLinksAndProtectionSegments="22 23" backupSegmentList="">
+				<attribute key="seqWavelengths" value="1 1"/>
+				<attribute key="seqWavelengthsInitialRoute" value="1 1"/>
+			</route>
+			<route id="371" demandId="370" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="17 11" currentSeqLinksAndProtectionSegments="17 11" backupSegmentList="">
+				<attribute key="seqWavelengths" value="3 3"/>
+				<attribute key="seqWavelengthsInitialRoute" value="3 3"/>
+			</route>
+			<route id="374" demandId="373" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="19 10" currentSeqLinksAndProtectionSegments="19 10" backupSegmentList="">
+				<attribute key="seqWavelengths" value="2 2"/>
+				<attribute key="seqWavelengthsInitialRoute" value="2 2"/>
+			</route>
+			<route id="377" demandId="376" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="19 9 16" currentSeqLinksAndProtectionSegments="19 9 16" backupSegmentList="">
+				<attribute key="seqWavelengths" value="8 8 8"/>
+				<attribute key="seqWavelengthsInitialRoute" value="8 8 8"/>
+			</route>
+			<route id="380" demandId="379" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="23 15 13" currentSeqLinksAndProtectionSegments="23 15 13" backupSegmentList="">
+				<attribute key="seqWavelengths" value="7 7 7"/>
+				<attribute key="seqWavelengthsInitialRoute" value="7 7 7"/>
+			</route>
+			<route id="383" demandId="382" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="19 10 18" currentSeqLinksAndProtectionSegments="19 10 18" backupSegmentList="">
+				<attribute key="seqWavelengths" value="3 3 3"/>
+				<attribute key="seqWavelengthsInitialRoute" value="3 3 3"/>
+			</route>
+			<route id="386" demandId="385" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="21 17 11" currentSeqLinksAndProtectionSegments="21 17 11" backupSegmentList="">
+				<attribute key="seqWavelengths" value="4 4 4"/>
+				<attribute key="seqWavelengthsInitialRoute" value="4 4 4"/>
+			</route>
+			<route id="389" demandId="388" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="18 22" currentSeqLinksAndProtectionSegments="18 22" backupSegmentList="">
+				<attribute key="seqWavelengths" value="2 2"/>
+				<attribute key="seqWavelengthsInitialRoute" value="2 2"/>
+			</route>
+			<route id="392" demandId="391" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="24 21" currentSeqLinksAndProtectionSegments="24 21" backupSegmentList="">
+				<attribute key="seqWavelengths" value="2 2"/>
+				<attribute key="seqWavelengthsInitialRoute" value="2 2"/>
+			</route>
+			<route id="395" demandId="394" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="22" currentSeqLinksAndProtectionSegments="22" backupSegmentList="">
+				<attribute key="seqWavelengths" value="0"/>
+				<attribute key="seqWavelengthsInitialRoute" value="0"/>
+			</route>
+			<route id="398" demandId="397" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="24" currentSeqLinksAndProtectionSegments="24" backupSegmentList="">
+				<attribute key="seqWavelengths" value="0"/>
+				<attribute key="seqWavelengthsInitialRoute" value="0"/>
+			</route>
+			<route id="401" demandId="400" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="19" currentSeqLinksAndProtectionSegments="19" backupSegmentList="">
+				<attribute key="seqWavelengths" value="1"/>
+				<attribute key="seqWavelengthsInitialRoute" value="1"/>
+			</route>
+			<route id="404" demandId="403" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="21 17" currentSeqLinksAndProtectionSegments="21 17" backupSegmentList="">
+				<attribute key="seqWavelengths" value="5 5"/>
+				<attribute key="seqWavelengthsInitialRoute" value="5 5"/>
+			</route>
+			<route id="407" demandId="406" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="10 18" currentSeqLinksAndProtectionSegments="10 18" backupSegmentList="">
+				<attribute key="seqWavelengths" value="4 4"/>
+				<attribute key="seqWavelengthsInitialRoute" value="4 4"/>
+			</route>
+			<route id="410" demandId="409" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="11" currentSeqLinksAndProtectionSegments="11" backupSegmentList="">
+				<attribute key="seqWavelengths" value="1"/>
+				<attribute key="seqWavelengthsInitialRoute" value="1"/>
+			</route>
+			<route id="413" demandId="412" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="19" currentSeqLinksAndProtectionSegments="19" backupSegmentList="">
+				<attribute key="seqWavelengths" value="4"/>
+				<attribute key="seqWavelengthsInitialRoute" value="4"/>
+			</route>
+			<route id="416" demandId="415" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="10" currentSeqLinksAndProtectionSegments="10" backupSegmentList="">
+				<attribute key="seqWavelengths" value="6"/>
+				<attribute key="seqWavelengthsInitialRoute" value="6"/>
+			</route>
+			<route id="419" demandId="418" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="21 17" currentSeqLinksAndProtectionSegments="21 17" backupSegmentList="">
+				<attribute key="seqWavelengths" value="6 6"/>
+				<attribute key="seqWavelengthsInitialRoute" value="6 6"/>
+			</route>
+			<route id="422" demandId="421" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="10 18" currentSeqLinksAndProtectionSegments="10 18" backupSegmentList="">
+				<attribute key="seqWavelengths" value="7 7"/>
+				<attribute key="seqWavelengthsInitialRoute" value="7 7"/>
+			</route>
+			<route id="425" demandId="424" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="23 14" currentSeqLinksAndProtectionSegments="23 14" backupSegmentList="">
+				<attribute key="seqWavelengths" value="9 9"/>
+				<attribute key="seqWavelengthsInitialRoute" value="9 9"/>
+			</route>
+			<route id="428" demandId="427" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="9 16" currentSeqLinksAndProtectionSegments="9 16" backupSegmentList="">
+				<attribute key="seqWavelengths" value="9 9"/>
+				<attribute key="seqWavelengthsInitialRoute" value="9 9"/>
+			</route>
+			<route id="431" demandId="430" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="12 14" currentSeqLinksAndProtectionSegments="12 14" backupSegmentList="">
+				<attribute key="seqWavelengths" value="10 10"/>
+				<attribute key="seqWavelengthsInitialRoute" value="10 10"/>
+			</route>
+			<route id="434" demandId="433" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="19" currentSeqLinksAndProtectionSegments="19" backupSegmentList="">
+				<attribute key="seqWavelengths" value="6"/>
+				<attribute key="seqWavelengthsInitialRoute" value="6"/>
+			</route>
+			<route id="437" demandId="436" carriedTraffic="10.0" occupiedCapacity="1.0" carriedTrafficIfNotFailing="10.0" occupiedLinkCapacityIfNotFailing="1.0" seqLinks="11" currentSeqLinksAndProtectionSegments="11" backupSegmentList="">
+				<attribute key="seqWavelengths" value="5"/>
+				<attribute key="seqWavelengthsInitialRoute" value="5"/>
+			</route>
+		</sourceRouting>
+	</layer>
+	<layer id="25" name="IP" description="" linkCapacityUnitsName="" demandTrafficUnitsName="">
+		<link id="258" originNodeId="2" destinationNodeId="3" capacity="10.0" lengthInKm="240.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="261" originNodeId="3" destinationNodeId="2" capacity="10.0" lengthInKm="240.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="264" originNodeId="2" destinationNodeId="3" capacity="10.0" lengthInKm="240.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="267" originNodeId="3" destinationNodeId="2" capacity="10.0" lengthInKm="240.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="270" originNodeId="2" destinationNodeId="4" capacity="10.0" lengthInKm="120.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="273" originNodeId="4" destinationNodeId="2" capacity="10.0" lengthInKm="120.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="276" originNodeId="2" destinationNodeId="6" capacity="10.0" lengthInKm="100.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="279" originNodeId="6" destinationNodeId="2" capacity="10.0" lengthInKm="100.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="282" originNodeId="2" destinationNodeId="5" capacity="10.0" lengthInKm="150.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="285" originNodeId="5" destinationNodeId="2" capacity="10.0" lengthInKm="150.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="288" originNodeId="2" destinationNodeId="7" capacity="10.0" lengthInKm="210.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="291" originNodeId="7" destinationNodeId="2" capacity="10.0" lengthInKm="210.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="294" originNodeId="2" destinationNodeId="3" capacity="10.0" lengthInKm="240.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="297" originNodeId="3" destinationNodeId="2" capacity="10.0" lengthInKm="240.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="300" originNodeId="2" destinationNodeId="8" capacity="10.0" lengthInKm="180.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="303" originNodeId="8" destinationNodeId="2" capacity="10.0" lengthInKm="180.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="306" originNodeId="3" destinationNodeId="4" capacity="10.0" lengthInKm="120.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="309" originNodeId="4" destinationNodeId="3" capacity="10.0" lengthInKm="120.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="312" originNodeId="3" destinationNodeId="6" capacity="10.0" lengthInKm="90.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="315" originNodeId="6" destinationNodeId="3" capacity="10.0" lengthInKm="90.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="318" originNodeId="3" destinationNodeId="5" capacity="10.0" lengthInKm="390.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="321" originNodeId="5" destinationNodeId="3" capacity="10.0" lengthInKm="340.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="324" originNodeId="4" destinationNodeId="6" capacity="10.0" lengthInKm="220.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="327" originNodeId="6" destinationNodeId="4" capacity="10.0" lengthInKm="220.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="330" originNodeId="3" destinationNodeId="8" capacity="10.0" lengthInKm="180.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="333" originNodeId="8" destinationNodeId="3" capacity="10.0" lengthInKm="180.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="336" originNodeId="3" destinationNodeId="7" capacity="10.0" lengthInKm="300.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="339" originNodeId="7" destinationNodeId="3" capacity="10.0" lengthInKm="300.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="342" originNodeId="5" destinationNodeId="7" capacity="10.0" lengthInKm="60.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="345" originNodeId="7" destinationNodeId="5" capacity="10.0" lengthInKm="60.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="348" originNodeId="4" destinationNodeId="8" capacity="10.0" lengthInKm="60.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="351" originNodeId="8" destinationNodeId="4" capacity="10.0" lengthInKm="60.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="354" originNodeId="2" destinationNodeId="4" capacity="10.0" lengthInKm="120.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="357" originNodeId="4" destinationNodeId="2" capacity="10.0" lengthInKm="120.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="360" originNodeId="4" destinationNodeId="5" capacity="10.0" lengthInKm="270.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="363" originNodeId="5" destinationNodeId="4" capacity="10.0" lengthInKm="270.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="366" originNodeId="4" destinationNodeId="7" capacity="10.0" lengthInKm="180.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="369" originNodeId="7" destinationNodeId="4" capacity="10.0" lengthInKm="180.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="372" originNodeId="5" destinationNodeId="6" capacity="10.0" lengthInKm="250.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="375" originNodeId="6" destinationNodeId="5" capacity="10.0" lengthInKm="250.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="378" originNodeId="6" destinationNodeId="8" capacity="10.0" lengthInKm="280.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="381" originNodeId="8" destinationNodeId="6" capacity="10.0" lengthInKm="270.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="384" originNodeId="6" destinationNodeId="7" capacity="10.0" lengthInKm="310.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="387" originNodeId="7" destinationNodeId="6" capacity="10.0" lengthInKm="310.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="390" originNodeId="5" destinationNodeId="8" capacity="10.0" lengthInKm="180.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="393" originNodeId="8" destinationNodeId="5" capacity="10.0" lengthInKm="180.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="396" originNodeId="7" destinationNodeId="8" capacity="10.0" lengthInKm="120.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="399" originNodeId="8" destinationNodeId="7" capacity="10.0" lengthInKm="120.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="402" originNodeId="6" destinationNodeId="2" capacity="10.0" lengthInKm="100.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="405" originNodeId="7" destinationNodeId="2" capacity="10.0" lengthInKm="210.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="408" originNodeId="2" destinationNodeId="7" capacity="10.0" lengthInKm="210.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="411" originNodeId="2" destinationNodeId="6" capacity="10.0" lengthInKm="100.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="414" originNodeId="6" destinationNodeId="2" capacity="10.0" lengthInKm="100.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="417" originNodeId="2" destinationNodeId="5" capacity="10.0" lengthInKm="150.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="420" originNodeId="7" destinationNodeId="2" capacity="10.0" lengthInKm="210.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="423" originNodeId="2" destinationNodeId="7" capacity="10.0" lengthInKm="210.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="426" originNodeId="8" destinationNodeId="2" capacity="10.0" lengthInKm="180.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="429" originNodeId="2" destinationNodeId="8" capacity="10.0" lengthInKm="180.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="432" originNodeId="3" destinationNodeId="2" capacity="10.0" lengthInKm="240.0" propagationSpeedInKmPerSecond="200000.00000000003" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="435" originNodeId="6" destinationNodeId="2" capacity="10.0" lengthInKm="100.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<link id="438" originNodeId="2" destinationNodeId="6" capacity="10.0" lengthInKm="100.0" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+			<attribute key="ospf-linkWeight" value="1.0"/>
+		</link>
+		<demand id="26" ingressNodeId="2" egressNodeId="3" offeredTraffic="24.620480286158735"/>
+		<demand id="27" ingressNodeId="2" egressNodeId="4" offeredTraffic="10.362559372596941"/>
+		<demand id="28" ingressNodeId="2" egressNodeId="5" offeredTraffic="7.276041314193129"/>
+		<demand id="29" ingressNodeId="2" egressNodeId="6" offeredTraffic="8.329936341006384"/>
+		<demand id="30" ingressNodeId="2" egressNodeId="7" offeredTraffic="4.801724522683776"/>
+		<demand id="31" ingressNodeId="2" egressNodeId="8" offeredTraffic="3.1057709824125754"/>
+		<demand id="32" ingressNodeId="3" egressNodeId="2" offeredTraffic="24.620480286158735"/>
+		<demand id="33" ingressNodeId="3" egressNodeId="4" offeredTraffic="2.741891382789076"/>
+		<demand id="34" ingressNodeId="3" egressNodeId="5" offeredTraffic="0.7460647250175422"/>
+		<demand id="35" ingressNodeId="3" egressNodeId="6" offeredTraffic="2.0355993308886133"/>
+		<demand id="36" ingressNodeId="3" egressNodeId="7" offeredTraffic="0.5486037281883147"/>
+		<demand id="37" ingressNodeId="3" egressNodeId="8" offeredTraffic="0.5665828246804806"/>
+		<demand id="38" ingressNodeId="4" egressNodeId="2" offeredTraffic="10.362559372596941"/>
+		<demand id="39" ingressNodeId="4" egressNodeId="3" offeredTraffic="2.741891382789076"/>
+		<demand id="40" ingressNodeId="4" egressNodeId="5" offeredTraffic="0.2763605403352942"/>
+		<demand id="41" ingressNodeId="4" egressNodeId="6" offeredTraffic="0.6818381454018965"/>
+		<demand id="42" ingressNodeId="4" egressNodeId="7" offeredTraffic="0.22116862564153744"/>
+		<demand id="43" ingressNodeId="4" egressNodeId="8" offeredTraffic="0.3938426642374894"/>
+		<demand id="44" ingressNodeId="5" egressNodeId="2" offeredTraffic="7.276041314193129"/>
+		<demand id="45" ingressNodeId="5" egressNodeId="3" offeredTraffic="0.7460647250175422"/>
+		<demand id="46" ingressNodeId="5" egressNodeId="4" offeredTraffic="0.2763605403352942"/>
+		<demand id="47" ingressNodeId="5" egressNodeId="6" offeredTraffic="0.1778315987821048"/>
+		<demand id="48" ingressNodeId="5" egressNodeId="7" offeredTraffic="0.49074293712722833"/>
+		<demand id="49" ingressNodeId="5" egressNodeId="8" offeredTraffic="0.10374198046917722"/>
+		<demand id="50" ingressNodeId="6" egressNodeId="2" offeredTraffic="8.329936341006384"/>
+		<demand id="51" ingressNodeId="6" egressNodeId="3" offeredTraffic="2.0355993308886133"/>
+		<demand id="52" ingressNodeId="6" egressNodeId="4" offeredTraffic="0.6818381454018965"/>
+		<demand id="53" ingressNodeId="6" egressNodeId="5" offeredTraffic="0.1778315987821048"/>
+		<demand id="54" ingressNodeId="6" egressNodeId="7" offeredTraffic="0.1274177733344672"/>
+		<demand id="55" ingressNodeId="6" egressNodeId="8" offeredTraffic="0.12759590994223613"/>
+		<demand id="56" ingressNodeId="7" egressNodeId="2" offeredTraffic="4.801724522683776"/>
+		<demand id="57" ingressNodeId="7" egressNodeId="3" offeredTraffic="0.5486037281883147"/>
+		<demand id="58" ingressNodeId="7" egressNodeId="4" offeredTraffic="0.22116862564153744"/>
+		<demand id="59" ingressNodeId="7" egressNodeId="5" offeredTraffic="0.49074293712722833"/>
+		<demand id="60" ingressNodeId="7" egressNodeId="6" offeredTraffic="0.1274177733344672"/>
+		<demand id="61" ingressNodeId="7" egressNodeId="8" offeredTraffic="0.09420501411301463"/>
+		<demand id="62" ingressNodeId="8" egressNodeId="2" offeredTraffic="3.1057709824125754"/>
+		<demand id="63" ingressNodeId="8" egressNodeId="3" offeredTraffic="0.5665828246804806"/>
+		<demand id="64" ingressNodeId="8" egressNodeId="4" offeredTraffic="0.3938426642374894"/>
+		<demand id="65" ingressNodeId="8" egressNodeId="5" offeredTraffic="0.10374198046917722"/>
+		<demand id="66" ingressNodeId="8" egressNodeId="6" offeredTraffic="0.12759590994223613"/>
+		<demand id="67" ingressNodeId="8" egressNodeId="7" offeredTraffic="0.09420501411301463"/>
+		<hopByHopRouting>
+			<forwardingRule demandId="26" linkId="258" splittingRatio="0.33333333333333337"/>
+			<forwardingRule demandId="26" linkId="264" splittingRatio="0.33333333333333337"/>
+			<forwardingRule demandId="26" linkId="294" splittingRatio="0.33333333333333337"/>
+			<forwardingRule demandId="27" linkId="270" splittingRatio="0.5"/>
+			<forwardingRule demandId="27" linkId="354" splittingRatio="0.5"/>
+			<forwardingRule demandId="28" linkId="282" splittingRatio="0.5"/>
+			<forwardingRule demandId="28" linkId="417" splittingRatio="0.5"/>
+			<forwardingRule demandId="29" linkId="276" splittingRatio="0.3333333333333333"/>
+			<forwardingRule demandId="29" linkId="411" splittingRatio="0.3333333333333333"/>
+			<forwardingRule demandId="29" linkId="438" splittingRatio="0.3333333333333333"/>
+			<forwardingRule demandId="30" linkId="288" splittingRatio="0.3333333333333333"/>
+			<forwardingRule demandId="30" linkId="408" splittingRatio="0.3333333333333333"/>
+			<forwardingRule demandId="30" linkId="423" splittingRatio="0.3333333333333333"/>
+			<forwardingRule demandId="31" linkId="300" splittingRatio="0.5"/>
+			<forwardingRule demandId="31" linkId="429" splittingRatio="0.5"/>
+			<forwardingRule demandId="32" linkId="261" splittingRatio="0.25"/>
+			<forwardingRule demandId="32" linkId="267" splittingRatio="0.25"/>
+			<forwardingRule demandId="32" linkId="297" splittingRatio="0.25"/>
+			<forwardingRule demandId="32" linkId="432" splittingRatio="0.25"/>
+			<forwardingRule demandId="33" linkId="306" splittingRatio="1.0"/>
+			<forwardingRule demandId="34" linkId="318" splittingRatio="1.0"/>
+			<forwardingRule demandId="35" linkId="312" splittingRatio="1.0"/>
+			<forwardingRule demandId="36" linkId="336" splittingRatio="1.0"/>
+			<forwardingRule demandId="37" linkId="330" splittingRatio="1.0"/>
+			<forwardingRule demandId="38" linkId="273" splittingRatio="0.5"/>
+			<forwardingRule demandId="38" linkId="357" splittingRatio="0.5"/>
+			<forwardingRule demandId="39" linkId="309" splittingRatio="1.0"/>
+			<forwardingRule demandId="40" linkId="360" splittingRatio="1.0"/>
+			<forwardingRule demandId="41" linkId="324" splittingRatio="1.0"/>
+			<forwardingRule demandId="42" linkId="366" splittingRatio="1.0"/>
+			<forwardingRule demandId="43" linkId="348" splittingRatio="1.0"/>
+			<forwardingRule demandId="44" linkId="285" splittingRatio="1.0"/>
+			<forwardingRule demandId="45" linkId="321" splittingRatio="1.0"/>
+			<forwardingRule demandId="46" linkId="363" splittingRatio="1.0"/>
+			<forwardingRule demandId="47" linkId="372" splittingRatio="1.0"/>
+			<forwardingRule demandId="48" linkId="342" splittingRatio="1.0"/>
+			<forwardingRule demandId="49" linkId="390" splittingRatio="1.0"/>
+			<forwardingRule demandId="50" linkId="279" splittingRatio="0.25"/>
+			<forwardingRule demandId="50" linkId="402" splittingRatio="0.25"/>
+			<forwardingRule demandId="50" linkId="414" splittingRatio="0.25"/>
+			<forwardingRule demandId="50" linkId="435" splittingRatio="0.25"/>
+			<forwardingRule demandId="51" linkId="315" splittingRatio="1.0"/>
+			<forwardingRule demandId="52" linkId="327" splittingRatio="1.0"/>
+			<forwardingRule demandId="53" linkId="375" splittingRatio="1.0"/>
+			<forwardingRule demandId="54" linkId="384" splittingRatio="1.0"/>
+			<forwardingRule demandId="55" linkId="378" splittingRatio="1.0"/>
+			<forwardingRule demandId="56" linkId="291" splittingRatio="0.3333333333333333"/>
+			<forwardingRule demandId="56" linkId="405" splittingRatio="0.3333333333333333"/>
+			<forwardingRule demandId="56" linkId="420" splittingRatio="0.3333333333333333"/>
+			<forwardingRule demandId="57" linkId="339" splittingRatio="1.0"/>
+			<forwardingRule demandId="58" linkId="369" splittingRatio="1.0"/>
+			<forwardingRule demandId="59" linkId="345" splittingRatio="1.0"/>
+			<forwardingRule demandId="60" linkId="387" splittingRatio="1.0"/>
+			<forwardingRule demandId="61" linkId="396" splittingRatio="1.0"/>
+			<forwardingRule demandId="62" linkId="303" splittingRatio="0.5"/>
+			<forwardingRule demandId="62" linkId="426" splittingRatio="0.5"/>
+			<forwardingRule demandId="63" linkId="333" splittingRatio="1.0"/>
+			<forwardingRule demandId="64" linkId="351" splittingRatio="1.0"/>
+			<forwardingRule demandId="65" linkId="393" splittingRatio="1.0"/>
+			<forwardingRule demandId="66" linkId="381" splittingRatio="1.0"/>
+			<forwardingRule demandId="67" linkId="399" splittingRatio="1.0"/>
+		</hopByHopRouting>
+	</layer>
+	<srg id="248" meanTimeToFailInHours="38409.05263157895" meanTimeToRepairInHours="12.0">
+		<link linkId="14"/>
+		<link linkId="9"/>
+	</srg>
+	<srg id="249" meanTimeToFailInHours="30724.842105263157" meanTimeToRepairInHours="12.0">
+		<link linkId="10"/>
+		<link linkId="17"/>
+	</srg>
+	<srg id="250" meanTimeToFailInHours="46093.26315789474" meanTimeToRepairInHours="12.0">
+		<link linkId="11"/>
+		<link linkId="19"/>
+	</srg>
+	<srg id="251" meanTimeToFailInHours="38409.05263157895" meanTimeToRepairInHours="12.0">
+		<link linkId="15"/>
+		<link linkId="12"/>
+	</srg>
+	<srg id="252" meanTimeToFailInHours="51216.070175438595" meanTimeToRepairInHours="12.0">
+		<link linkId="20"/>
+		<link linkId="13"/>
+	</srg>
+	<srg id="253" meanTimeToFailInHours="76830.1052631579" meanTimeToRepairInHours="12.0">
+		<link linkId="16"/>
+		<link linkId="23"/>
+	</srg>
+	<srg id="254" meanTimeToFailInHours="76830.1052631579" meanTimeToRepairInHours="12.0">
+		<link linkId="18"/>
+		<link linkId="21"/>
+	</srg>
+	<srg id="255" meanTimeToFailInHours="38409.05263157895" meanTimeToRepairInHours="12.0">
+		<link linkId="24"/>
+		<link linkId="22"/>
+	</srg>
+	<layerCouplingDemand lowerLayerDemandId="256" upperLayerLinkId="258"/>
+	<layerCouplingDemand lowerLayerDemandId="259" upperLayerLinkId="261"/>
+	<layerCouplingDemand lowerLayerDemandId="262" upperLayerLinkId="264"/>
+	<layerCouplingDemand lowerLayerDemandId="265" upperLayerLinkId="267"/>
+	<layerCouplingDemand lowerLayerDemandId="268" upperLayerLinkId="270"/>
+	<layerCouplingDemand lowerLayerDemandId="271" upperLayerLinkId="273"/>
+	<layerCouplingDemand lowerLayerDemandId="274" upperLayerLinkId="276"/>
+	<layerCouplingDemand lowerLayerDemandId="277" upperLayerLinkId="279"/>
+	<layerCouplingDemand lowerLayerDemandId="280" upperLayerLinkId="282"/>
+	<layerCouplingDemand lowerLayerDemandId="283" upperLayerLinkId="285"/>
+	<layerCouplingDemand lowerLayerDemandId="286" upperLayerLinkId="288"/>
+	<layerCouplingDemand lowerLayerDemandId="289" upperLayerLinkId="291"/>
+	<layerCouplingDemand lowerLayerDemandId="292" upperLayerLinkId="294"/>
+	<layerCouplingDemand lowerLayerDemandId="295" upperLayerLinkId="297"/>
+	<layerCouplingDemand lowerLayerDemandId="298" upperLayerLinkId="300"/>
+	<layerCouplingDemand lowerLayerDemandId="301" upperLayerLinkId="303"/>
+	<layerCouplingDemand lowerLayerDemandId="304" upperLayerLinkId="306"/>
+	<layerCouplingDemand lowerLayerDemandId="307" upperLayerLinkId="309"/>
+	<layerCouplingDemand lowerLayerDemandId="310" upperLayerLinkId="312"/>
+	<layerCouplingDemand lowerLayerDemandId="313" upperLayerLinkId="315"/>
+	<layerCouplingDemand lowerLayerDemandId="316" upperLayerLinkId="318"/>
+	<layerCouplingDemand lowerLayerDemandId="319" upperLayerLinkId="321"/>
+	<layerCouplingDemand lowerLayerDemandId="322" upperLayerLinkId="324"/>
+	<layerCouplingDemand lowerLayerDemandId="325" upperLayerLinkId="327"/>
+	<layerCouplingDemand lowerLayerDemandId="328" upperLayerLinkId="330"/>
+	<layerCouplingDemand lowerLayerDemandId="331" upperLayerLinkId="333"/>
+	<layerCouplingDemand lowerLayerDemandId="334" upperLayerLinkId="336"/>
+	<layerCouplingDemand lowerLayerDemandId="337" upperLayerLinkId="339"/>
+	<layerCouplingDemand lowerLayerDemandId="340" upperLayerLinkId="342"/>
+	<layerCouplingDemand lowerLayerDemandId="343" upperLayerLinkId="345"/>
+	<layerCouplingDemand lowerLayerDemandId="346" upperLayerLinkId="348"/>
+	<layerCouplingDemand lowerLayerDemandId="349" upperLayerLinkId="351"/>
+	<layerCouplingDemand lowerLayerDemandId="352" upperLayerLinkId="354"/>
+	<layerCouplingDemand lowerLayerDemandId="355" upperLayerLinkId="357"/>
+	<layerCouplingDemand lowerLayerDemandId="358" upperLayerLinkId="360"/>
+	<layerCouplingDemand lowerLayerDemandId="361" upperLayerLinkId="363"/>
+	<layerCouplingDemand lowerLayerDemandId="364" upperLayerLinkId="366"/>
+	<layerCouplingDemand lowerLayerDemandId="367" upperLayerLinkId="369"/>
+	<layerCouplingDemand lowerLayerDemandId="370" upperLayerLinkId="372"/>
+	<layerCouplingDemand lowerLayerDemandId="373" upperLayerLinkId="375"/>
+	<layerCouplingDemand lowerLayerDemandId="376" upperLayerLinkId="378"/>
+	<layerCouplingDemand lowerLayerDemandId="379" upperLayerLinkId="381"/>
+	<layerCouplingDemand lowerLayerDemandId="382" upperLayerLinkId="384"/>
+	<layerCouplingDemand lowerLayerDemandId="385" upperLayerLinkId="387"/>
+	<layerCouplingDemand lowerLayerDemandId="388" upperLayerLinkId="390"/>
+	<layerCouplingDemand lowerLayerDemandId="391" upperLayerLinkId="393"/>
+	<layerCouplingDemand lowerLayerDemandId="394" upperLayerLinkId="396"/>
+	<layerCouplingDemand lowerLayerDemandId="397" upperLayerLinkId="399"/>
+	<layerCouplingDemand lowerLayerDemandId="400" upperLayerLinkId="402"/>
+	<layerCouplingDemand lowerLayerDemandId="403" upperLayerLinkId="405"/>
+	<layerCouplingDemand lowerLayerDemandId="406" upperLayerLinkId="408"/>
+	<layerCouplingDemand lowerLayerDemandId="409" upperLayerLinkId="411"/>
+	<layerCouplingDemand lowerLayerDemandId="412" upperLayerLinkId="414"/>
+	<layerCouplingDemand lowerLayerDemandId="415" upperLayerLinkId="417"/>
+	<layerCouplingDemand lowerLayerDemandId="418" upperLayerLinkId="420"/>
+	<layerCouplingDemand lowerLayerDemandId="421" upperLayerLinkId="423"/>
+	<layerCouplingDemand lowerLayerDemandId="424" upperLayerLinkId="426"/>
+	<layerCouplingDemand lowerLayerDemandId="427" upperLayerLinkId="429"/>
+	<layerCouplingDemand lowerLayerDemandId="430" upperLayerLinkId="432"/>
+	<layerCouplingDemand lowerLayerDemandId="433" upperLayerLinkId="435"/>
+	<layerCouplingDemand lowerLayerDemandId="436" upperLayerLinkId="438"/>
+	<attribute key="step2SuccessfullyCompleted" value="true"/>
+</network>
